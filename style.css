@@ -1,0 +1,108 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+.clear{
+	overflow: hidden;
+}
+.topbar{
+	background-color: #33C1FF;
+}
+.container{
+	width: 1200px;
+	margin: auto;
+}
+.contact-icon{
+	width: 60%;
+	float: left;
+}
+.contact-icon a{
+	color: #fff;
+	font-size: 20px;
+	padding: 10px;
+	display: inline-block;
+}
+
+.social-icon{
+	width: 30%;
+	float: right;
+}
+.social-icon a{
+	color: #fff;
+	font-size: 20px;
+	padding: 10px;
+	display: inline-block;
+	margin-left: 24px;
+}
+.header{
+	margin-top: 10px; 
+}
+.logo{
+	width: 30%;
+	float: left;
+}
+.logo img{
+	width: 250px;
+	height: 80px;
+}
+.navbar{
+	width: 60%;
+	float: right;
+}
+.navbar ul{
+	list-style: none;
+}
+.navbar ul li{
+	display: inline;
+}
+.navbar ul li a{
+	font-size: 18px;
+	padding: 20px;
+	display: inline-block;
+	color: #33C1FF;
+	font-weight: bold;
+	margin-left: 20px;
+}
+.navbar ul li a:hover{
+	background-color: #33C1FF;
+	color: #fff;
+	border-radius: 5px;
+}
+.slider img{
+	width: 100%;
+	height: 497px;
+}
+.heading{
+    padding: 20px 0;/*first value for top & bottom,second value for left and right*/
+}
+.heading h1{
+    text-align: center;
+    color: #33C1FF;
+}
+.about-message{
+    width: 48%;
+    float: left;
+    padding: 10px;
+
+}
+.about-message p{
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+.btn-about{
+    background-color: #33C1FF;
+    padding: 10px;
+    color:#fff;
+}
+.about-image{
+    width:48%;
+    float: right;
+    padding: 10px;
+}
+.about-image img{
+    width: 100%;
+}
